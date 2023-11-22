@@ -4,8 +4,7 @@ easyocr
 db-sqlite3
 opencv-python
 matplotlib
-os-sys
+git+https://github.com/os-sys/os-sys.git
 regex
 Pillow
 streamlit-option-menu
-texteditor
