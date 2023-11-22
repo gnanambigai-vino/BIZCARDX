@@ -11,7 +11,7 @@ import re
 
 
 # SETTING PAGE CONFIGURATIONS
-icon = Image.open("C:/Users/GVJai/Desktop/Project/bizcardx/ocr.png")
+icon = Image.open("ocr.png")
 st.set_page_config(page_icon= icon,
                    layout= "wide",
                    initial_sidebar_state= "expanded")
@@ -57,7 +57,7 @@ if selected == "Home":
 if selected == "Upload & Extract":
     st.markdown("### Upload a Business Card")
     uploaded_card = st.file_uploader("upload here",label_visibility="collapsed",type=["png","jpeg","jpg"])
-    filepath = "C:/Users/GVJai/Desktop/Project/bizcardx/uploaded_cards"
+    filepath = "uploaded_cards"
     
     if uploaded_card is not None:
       
