@@ -1,0 +1,11 @@
+pandas 
+sqlite3 
+streamlit
+easyocr
+sqlite3
+opencv-python
+matplotlib
+os-sys
+regex
+Pillow
+streamlit-option-menu
